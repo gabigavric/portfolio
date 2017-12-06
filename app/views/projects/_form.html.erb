@@ -1,3 +1,5 @@
+<%= form_with(model: project, local: true) do |form| %>
+
 <div class="field">
   <%= form.label :title %>
   <%= form.text_field :title, id: :project_title %>
@@ -16,3 +18,5 @@
 <div class="actions">
   <%= form.submit %>
 </div>
+
+<% end %>

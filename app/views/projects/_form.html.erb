@@ -1,22 +1,12 @@
 <%= form_with(model: project, local: true) do |form| %>
-
-<div class="field">
-  <%= form.label :title %>
-  <%= form.text_field :title, id: :project_title %>
+<div class="form-group">
+  <%= form.text_field :title, placeholder: "Title" %>
+  <br><br>
+  <%= form.text_field :about, placeholder: "Description" %>
+  <br><br>
+  <%= form.text_field :image, placeholder: "Image URL" %>
 </div>
-
-<div class="field">
-  <%= form.label :about %>
-  <%= form.text_field :about, id: :project_about %>
-</div>
-
-<div class="field">
-  <%= form.label :image %>
-  <%= form.text_field :image, id: :project_image %>
-</div>
-
 <div class="actions">
   <%= form.submit %>
 </div>
-
 <% end %>

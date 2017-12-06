@@ -13,12 +13,14 @@ descripton and a link to the website.
 
 Copy this into your terminal :
 <ul>
-  <li>git clone ""</li>
+  <li>git clone "https://github.com/gabigavric/portfolio.git"</li>
   <li>cd "portfolio"</li>
-  <li>rails db:create</li>
+  <li>bundle install</li>
   <li>rails db:schema:load</li>
-  <li>ADD OTHER INSTRUCTIONS</li>
+  <li>rails s</li>
 <ul>
+<br>
+Then type "localhost:3000" into the url of your web browser.
 
 *Bugs*
 

@@ -19,7 +19,7 @@ Copy this into your terminal :
   <li>rails db:schema:load</li>
   <li>rails s</li>
 </ul>
-Then type "localhost:3000" into the url of your web browser.<br>
+Then type "localhost:3000" into the url of your web browser.
 
 *Bugs*
 
